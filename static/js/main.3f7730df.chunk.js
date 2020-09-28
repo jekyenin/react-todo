@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-todo"]=this["webpackJsonpreact-todo"]||[]).push([[0],{2:function(o,n,t){o.exports=t(9)},8:function(o,n,t){},9:function(o,n,t){"use strict";t.r(n);t(0),t(4),t(8),Boolean("localhost"===window.location.hostname||"[::1]"===window.location.hostname||window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));"serviceWorker"in navigator&&navigator.serviceWorker.ready.then((function(o){o.unregister()})).catch((function(o){console.error(o.message)}))}},[[2,1,2]]]);
+//# sourceMappingURL=main.3f7730df.chunk.js.map
