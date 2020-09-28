@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ToDoList</title>
+  </head>
+  <body class="page">
+    <div id="root"></div>
+    <article class="content">
+      <a href="/" class="content__logo">
+        <img src="/images/logo.svg" alt="" class="content__logo-image" />
+      </a>
+      <p class="content__description">
+        To-do list is&nbsp;a&nbsp;project for practice in&nbsp;development with
+        React. <br />You can view the code in&nbsp;<a
+          href="https://github.com/jekyenin/react-todo"
+          target="_blank"
+          class="link"
+          >the repository</a
+        >.
+      </p>
+      <section class="todo">
+        <form class="todo-form todo__form">
+          <input
+            type="text"
+            class="todo-form__input"
+            autofocus
+            placeholder="Your task"
+          />
+          <button class="todo-form__submit">
+            <img src="/images/plus.svg" alt="" class="todo-form__submit-icon" />
+          </button>
+        </form>
+        <ul class="todo__list">
+          <li class="todo__item todo-item">
+            <input id="check1" type="checkbox" class="todo-item__input" />
+            <label for="check1" class="todo-item__title">Buy a milk</label>
+            <button class="todo-item__delete">
+              <img
+                src="/images/trash.svg"
+                alt=""
+                class="todo-item__delete-icon"
+              />
+            </button>
+          </li>
+          <li class="todo__item todo-item">
+            <input id="check2" type="checkbox" class="todo-item__input" />
+            <label for="check2" class="todo-item__title"
+              >Buy a colorful magnets</label
+            >
+            <button class="todo-item__delete">
+              <img
+                src="/images/trash.svg"
+                alt=""
+                class="todo-item__delete-icon"
+              />
+            </button>
+          </li>
+          <li class="todo__item todo-item">
+            <input id="check3" type="checkbox" class="todo-item__input" />
+            <label for="check3" class="todo-item__title"
+              >Draw a masterpiece</label
+            >
+            <button class="todo-item__delete">
+              <img
+                src="/images/trash.svg"
+                alt=""
+                class="todo-item__delete-icon"
+              />
+            </button>
+          </li>
+          <li class="todo__item todo-item">
+            <input id="check4" type="checkbox" class="todo-item__input" />
+            <label for="check4" class="todo-item__title"
+              >Create React App</label
+            >
+            <button class="todo-item__delete">
+              <img
+                src="/images/trash.svg"
+                alt=""
+                class="todo-item__delete-icon"
+              />
+            </button>
+          </li>
+        </ul>
+      </section>
+      <p class="content__footer-description">
+        The project was created by&nbsp;<a
+          href="https://jekyenin.github.io"
+          target="_blank"
+          class="link"
+          >Evgeniy Enin</a
+        >.
+      </p>
+    </article>
+  </body>
+</html>
